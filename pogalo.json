@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Synthesis Tshirt",
+        "price": 35,
+        "image": "syntht2.png"
+    
+    },
+     {
+        "id": 2,
+        "name": "Synthesis Comic",
+        "price": 10,
+        "image": "synthcover.jpg"
+    
+    }
+]
