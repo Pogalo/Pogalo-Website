@@ -412,10 +412,10 @@ ul > li
  
   
   
-margin: 5%;
+margin: 3%;
 
   
-  width: 100%;
+  width: 98%;
  
  
   padding-top: 200px;
@@ -436,10 +436,14 @@ margin: 5%;
         
     }
     .folder1{
-        
+        scale: 60%;
         max-width: 90%;
+        min-width: auto;
+        
         
         margin: 0;
+        
+
        
         align-self: center;
         justify-self: center;
@@ -448,6 +452,8 @@ margin: 5%;
         overflow-x: hidden;
 
     }
+
+    
     .folder1:hover {
         overflow-x: hidden;
         
