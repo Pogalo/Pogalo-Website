@@ -748,14 +748,50 @@ main{
 
 .ateringdata{
     display: flex;
+    align-items: flex-start;
+    justify-content: center;
     align-items: center;
-    width: 1000px;
-    height: 1000px;
-     border: 2px rgb(160, 252, 255) solid;
-     background-color: #ffffff;
-     border-radius: 20%;
-}
 
+    
+    
+     
+}
+.const{
+    display: flex;
+    width: 100rem;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+     
+}@media (max-width: 600px) {
+    .ateringdata{
+       display: flex;
+       float: left;
+       
+        
+
+    }
+    .const{
+        width: 60%;
+        margin-left: -120px;
+        padding-bottom: 50%;
+
+        
+        
+        
+        
+        
+        
+       
+        
+        
+        
+        
+    }
+}
 
 
 
@@ -914,10 +950,11 @@ aside{
 
     .contact{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         padding-left: 0px;
+        flex-wrap: wrap;
         
-        gap: 30px;
+        gap: 50px;
        
         width: 100%;
         height: 80%;
@@ -941,6 +978,7 @@ aside{
         align-items: flex-start;
         border: none;
         box-shadow: none;
+        flex-wrap: nowrap;
 
 
 
@@ -956,7 +994,7 @@ aside{
         justify-self: flex-start;
     }
     .dgihub{
-        width: 30%;
+        max-width: 20%;
     }
    
 }
@@ -978,11 +1016,15 @@ aside{
     }
     .para2{
         
-        gap: 20px;
-        width: 20%;
+        
+        width: 30%;
         margin-left: 30px;
         
 
+        
+    }
+    .dgihub{
+        width: 50%;
         
     }
 
