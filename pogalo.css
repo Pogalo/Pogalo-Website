@@ -1,0 +1,896 @@
+
+body{
+    background-image: url();
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+    background-size: 100%;
+    overflow-x: hidden;
+    
+    
+    
+    
+    
+    
+}
+
+html{
+    max-width: 100%;
+    
+    
+}
+
+@media (max-width: 600px) {
+    html, body{
+       overflow-x: hidden;
+       
+       position: relative;
+       max-width: 100%;
+        
+    }
+}
+
+
+@media (max-width: 600px) {
+    body{
+       overflow-x: hidden;
+       width: 100%;
+       position: relative;
+       
+        
+    }
+}
+
+
+
+
+
+.maintabs{
+    
+    display: flex;
+    align-items: flex-start;
+    
+
+    justify-content: space-evenly;
+     list-style-type: none;
+    background-color: none;
+    padding: 0px;
+    font-size: 30px;
+   width: 1000px;
+    margin: 0px;
+    
+    color: #ffffff;
+    flex-wrap: wrap;
+   
+    
+    
+ 
+ 
+} 
+
+@media screen and (max-width: 600px) {
+    .maintabs{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-left: 40px;
+        
+    }
+}
+
+.bannermain {
+    display: flex;
+    position: sticky;
+    flex-direction: row;
+    align-self: center;
+
+    width: 1000px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.homeimg{
+    float: left;
+    height: auto;
+}
+
+.homer{
+    
+   
+   border-radius: 5px;
+
+
+    font-family: "Jersey 10", sans-serif;
+    
+   
+   
+}
+
+
+.homer2{
+    
+  
+    
+    grid-row: 2/3;
+    grid-column: 2/5;
+    font-family: "Jersey 10", sans-serif;
+    
+    
+   float: left;
+    border-radius: 5px;
+}
+
+.comichold{
+    position: static;
+   flex-wrap: nowrap;
+    width: 500px;
+    
+    
+    
+
+
+    
+    margin: 0 auto;
+    
+}
+
+.hold{
+        display: flex;
+    flex-direction: column;
+    aspect-ratio: 9 / 16;
+    overflow-x: hidden;
+    scroll-snap-type: mandatory;
+    scroll-behavior: smooth;
+   
+   
+
+}
+
+@media (max-width: 600px) {
+    .comichold  {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        aspect-ratio: 9 / 16;
+        float: left;
+        margin-left: 1vw;
+
+        
+        
+        
+        
+    }.hold{
+        width: 90%;
+        float: left;
+    }
+}
+
+.container {
+    width: 900px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+   
+    padding: 2rem;
+    border: aqua solid 3px;
+    border-radius: 100px;
+    color: #80e6ff;
+    box-shadow: -20px 20px 3px rgb(144, 214, 255);
+    
+}
+
+.slider-wrapper{
+    position: static;
+    width: 700px;
+    height: 1000x;
+    overflow-y: auto;
+    grid-column: span 3;
+
+
+    max-width: 1500px;
+    margin: 0 auto;
+    
+}
+.beutbut{
+    width: 200px;
+}
+
+.slider{
+    display: flex;
+    flex-direction: row;
+    aspect-ratio: 16 / 9;
+    overflow-x: hidden;
+    scroll-snap-type: x proximity;
+    scroll-behavior: smooth;
+   border: aqua solid 3px;
+   border-radius: 100px;
+
+}
+
+
+
+.slider img{
+    flex: 1 0 100%;
+    
+    object-fit:cover;
+    border-radius: 100px;
+    object-position: 100%;
+
+}
+
+.synthp{
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.container .buynow{
+    width: 300px;
+    height: 150px;
+    
+    
+}
+
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: sticky;
+    padding-top: 20px;
+    
+    left: 53%;
+    transform: translateX(-50%);
+    z-index: 1;
+
+}
+
+.slider-nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #80e6ff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.descript{
+    width: 400;
+    
+   
+}
+
+.synthhd{
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.jersey-10-regular {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+.pogalosetup{
+    max-width: 1000px;
+    height: 900px;
+    margin: 100px auto;
+    display: grid;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    font-family: "Jersey 10", sans-serif;
+
+
+}
+
+ul > li
+{
+    list-style-type: none;
+}
+
+.folderorigin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+.folder1{
+   
+    background-image: url(BUTTBASETRANS.png);
+   width: 40vw;
+   height: 40vh;
+   background-size: cover;
+   justify-self: center;
+   margin-top: 20%;
+
+   
+   
+    
+
+}
+
+.folder1:hover{
+   
+    background-image: url(gleem.gif);
+    
+}
+
+@media (max-width: 600px) {
+    .folderorigin{
+        
+  
+  display: flex;
+  flex-direction: row;
+  
+  float: left;
+  margin: -25px;
+  
+  width: 30%;
+  align-content: flex-start;
+  justify-content: flex-start;
+  padding-top: 200px;
+ 
+  
+  
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+    .folder1{
+        
+        max-width: 100%;
+        margin: 0;
+        justify-self: flex-start;
+        
+        background-image: url(gleem.gif);
+        overflow-x: hidden;
+
+    }
+    .folder1:hover {
+        overflow-x: hidden;
+        margin: 0%;
+    }
+}
+
+header{
+   grid-row: 1 / 2;
+   grid-column: 1 / 3;
+   margin: 0px;
+    padding: 0px;
+    place-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: fit-content;
+    
+
+}
+.icon-cart span{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: greenyellow;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border-radius: 50%;
+    position:absolute
+    
+
+}
+  svg{
+    width: 30px;
+   
+ .pogaloproduct{
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 100%;
+    margin:auto;
+    
+    padding-top: 10px;
+}
+}
+
+.listProduct .item img{
+    width: 90%;
+    
+     
+    
+    
+    
+}
+.listProduct .item2 img{
+    width: 100%;
+    
+}
+.listProduct{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    max-width: 40%;
+    
+    
+}
+.listProduct .item{
+    flex: 1;
+    padding: 20px;
+    border-radius: 50px;
+    border: rgb(186, 255, 249) solid 3px;
+    box-shadow: 0px 7px 0px  rgb(144, 214, 255);
+}
+.listProduct .item2{
+    
+    border: rgb(186, 255, 249) solid 3px;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 7px 0px  rgb(144, 214, 255);
+    
+    
+}
+
+
+.listProduct .item button{
+    cursor: pointer;
+    
+}
+
+@media (max-width: 600px) {
+    .listProduct .item .item2 .itemimg{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        max-width: 100%;
+        padding-bottom: 40px;
+        overflow-x: hidden;
+        
+        
+        
+    }
+}
+.cartTab{
+    width: 400px;
+    height: 400px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(180, 180, 180);
+    position: fixed;
+    inset: 0 -400px 0 auto;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+    transition: .5s;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px rgb(144, 214, 255);
+    stroke-width: 20px;
+
+
+}
+
+body.showCart .cartTab{
+     inset: 0 0 0 auto;
+}
+
+body.showCart .pogaloproduct{
+    transform: translateX(-250px);
+}
+.cartTab h1{
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.cartTab .btn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.cartTab .btn button{
+   font-weight: 100;
+    cursor: pointer;
+}
+
+.cartTab .btn .checkout{
+    background-color: lime;
+}
+
+.cartTab .listCart .item img{
+    width: 100%
+}
+.cartTab .listCart .item{
+    display: grid;
+    grid-template-columns: 70px 150px 50px 1fr;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.quantity span{
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: limegreen;
+    color: azure;
+    border-radius: 30%;
+    cursor: pointer;
+    top: 30px;
+
+    
+}
+
+.quantity span:nth-child(2){
+    background-color: transparent;
+    color: rgb(30, 255, 255);
+}
+
+.listCart .item:nth-child(even){
+    background-color: aquamarine;
+    overflow: auto;
+}
+
+.listCart::-webkit-scrollbar{
+    width: 0;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .listProduct{
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 40px;
+        overflow-x: hidden;
+        
+        
+        
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    footer{
+        display: none;
+        
+    }
+}
+
+
+
+.comic{
+    top: 300px;
+
+}
+
+button{
+   width: 200px;
+   background:rgb(160, 252, 255); color:white; padding:6px 12px 8px 12px; border:none; font-size:18px; border-radius: 10px;
+         box-shadow: -2px -2px 10px rgb(255, 252, 252) inset, 2px 2px 10px white inset; font-family: "Jersey 10"; }
+
+
+
+.comics2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 50px;
+    box-shadow: -10px 10px  rgb(211, 239, 255) ;
+
+    width: 1000px;
+    background-color: #ffffff;
+    border: 2px rgb(160, 252, 255) solid;
+    border-radius: 50px;
+    height: 900px;
+}
+
+.comictitle{
+    margin-left: 30px;
+    max-width: 200px;
+}
+
+.mcomictitle{
+    margin: 20px;
+}
+
+
+.maincomic{
+    width: 400px;
+    border: 2px rgb(160, 252, 255) solid;
+    align-self: center;
+   
+    
+   
+
+    scale: 100%;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .comics2{
+        display: flex;
+        max-width: 500px;
+        
+        
+    }
+}
+
+.beetbut{
+    position: absolute;
+    width: 100px;
+    z-index: 1000;
+    
+   
+    align-self: flex-end;
+    
+
+}
+
+main{
+    grid-row: 3/3;
+    grid-column: 1/3;
+    font-family: "Jersey 10", sans-serif;
+   
+    width: 1000px;
+
+}
+
+.ateringdata{
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    height: 1000px;
+     border: 2px rgb(160, 252, 255) solid;
+     background-color: #ffffff;
+     border-radius: 20%;
+}
+
+
+
+
+
+.ff{
+    width: 1000px;
+    height: auto;
+    display: block;
+  margin-bottom: 200px;
+  width: 100%;
+}
+
+
+
+.maintabs a{
+    color: rgb(210, 244, 255);
+    text-decoration: none;
+ 
+
+    padding: 15px;
+    
+}
+.navbar a:hover{
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+    
+}
+
+
+.homeimg{
+    height: 30px;
+    width: 50px;
+    border-radius: 50%;
+
+
+   
+}
+
+
+.pogaphotos {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.pogalobutton1{
+
+position: fixed;
+bottom: 10rem;
+left: 40rem;
+margin: 0px;
+padding: 0px;
+
+}
+
+
+.active[data-tab-content] {
+    display: block;
+}
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    border-bottom: 1px lightskyblue;
+
+}
+ .tabs {
+        cursor: pointer;
+    }
+
+    .tabs:hover {
+        background-color: rgb(212, 212, 212);
+    }
+    div{
+        color: skyblue
+    }
+  
+
+    
+
+
+
+    .active{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 40px;
+        color: pink;
+    }
+    .tab{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: pink;
+        font-size: 40px;
+    }
+
+    
+aside{
+    height: 600px;
+    
+  
+    width: 300px;
+   border: #80e6ff solid px;
+    position: fixed;
+    inset: 190px  1500px 0 auto;
+    display: block;
+    
+    font-family: 'Courier New', Courier, monospace;
+    
+
+    border-radius: 100px;
+    
+    stroke-width: 20px;
+
+      list-style-type: none;
+    background-color: none;
+    padding: 0px;
+    font-size: 20px;
+    overflow: hidden;
+     
+  text-align: center;
+    
+
+}
+.contactleft {
+    width: 200px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 25px 3px rgb(144, 214, 255);
+    
+}
+
+.contactleft .info1{
+    width: 425px;
+    padding-right: 134px;
+    
+
+}
+
+
+    .contact{
+        display: flex;
+        flex-direction: row;
+        padding-left: 0px;
+        
+        gap: 30px;
+       
+        width: 100%;
+        height: 80%;
+        border: #80e6ff, solid px;
+   border-radius: 100px;
+   color: #80e6ff;
+   
+   
+   box-shadow: 10px 10px 5px rgb(211, 239, 255) inset;
+   
+
+
+    }
+
+    @media (max-width: 600px) {
+    .contact
+     {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        border: none;
+        box-shadow: none;
+
+
+
+
+        min-width: 20%;
+       
+        
+        
+        
+        
+    }
+    .headi{
+        justify-self: flex-start;
+    }
+    .dgihub{
+        width: 30%;
+    }
+   
+}
+
+    .headi{
+        width: 20%;
+        grid-column: span 3;
+       padding-left: 10%;
+    }
+
+    .para{
+        flex: 1;
+        
+        width: 20%;
+        padding-left: 20px;
+        min-width: 20%;
+
+        
+    }
+    .para2{
+        
+        gap: 20px;
+        width: 20%;
+        margin-left: 30px;
+        
+
+        
+    }
+
+
+    .covercontact{
+        width: 100%;
+        
+    }
+
+
+    footer {
+    position: fixed;
+    white-space: nowrap;
+  left: -150px;
+  bottom: 0;
+  width: 3000px;
+  transform: rotate(180deg);
+  overflow: hidden;
+  
+  color: white;
+    scale: -100%;
+}
+
+
+
+
+
+
