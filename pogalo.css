@@ -7,8 +7,8 @@ body{
     margin: -25px;
     background-size: 100%;
     overflow-x: hidden;
-    position: sticky;
-    max-height: 150vh;
+    
+    
     
     
     
@@ -24,7 +24,7 @@ html{
 @media (max-width: 600px) {
     html, body{
        overflow-x: hidden;
-       width: 600px;
+       width: 800px;
        position: relative;
        max-width: 100%;
         
@@ -161,8 +161,9 @@ html{
         
         
         
+        
     }.hold{
-        width: 100%;
+        width: 95%;
         float: left;
     }
 }
@@ -325,12 +326,13 @@ ul > li
   flex-direction: row;
   
   float: left;
-  margin: -30px;
   
-  width: 100%;
+  
+  width: 30%;
   align-content: flex-start;
   justify-content: flex-start;
   padding-top: 200px;
+ 
   
   
 
@@ -795,7 +797,7 @@ aside{
     .contact{
         display: flex;
         flex-direction: row;
-        padding-left: 20px;
+        padding-left: 0px;
         
         gap: 30px;
        
