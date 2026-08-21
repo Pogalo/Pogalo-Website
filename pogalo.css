@@ -380,8 +380,8 @@ padding-bottom: 8%;
     
     width: 100%;
     object-fit: scale-down;
-    margin-right: 69%;
-    scale: 90%;
+    
+    scale: 100%;
     scroll-snap-type: mandatory;
     scroll-snap-stop: always;
    
