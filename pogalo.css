@@ -303,6 +303,8 @@ padding-bottom: 8%;
         flex-direction: row;
         
         scroll-snap-stop: always;
+        margin: 20px;
+        
         
         
         
@@ -319,7 +321,7 @@ padding-bottom: 8%;
         
         
     }.container{
-       width: 85vw;
+       width: 90vw;
        height: 200vh;
     display: flex;
     flex-direction: column;
@@ -369,6 +371,7 @@ padding-bottom: 8%;
     }
     .slider .img{
         width: 100%;
+        
 
     }
 }
@@ -379,9 +382,10 @@ padding-bottom: 8%;
 .slider img{
     
     width: 100%;
-    object-fit: scale-down;
     
-    scale: 100%;
+    
+    
+   
     scroll-snap-type: mandatory;
     scroll-snap-stop: always;
    
