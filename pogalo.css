@@ -136,7 +136,7 @@ html{
     background: url(olii.jpg);
 }
 .mainicons .shomer img{
-    width: 70px;
+    width: 90px;
 }
 .synthup{
     width: 90px;
@@ -219,8 +219,8 @@ html{
     position: static;
    flex-wrap: nowrap;
     width: 500px;
-    padding-top: 10px;
-    
+    padding-top: 50px;
+   
     
     
 
@@ -272,7 +272,8 @@ html{
     display: flex;
     flex-direction: column;
 align-items: center;
-padding-bottom: 8%;
+padding-bottom: 1%;
+
     
    
     border: aqua solid 3px;
