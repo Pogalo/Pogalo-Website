@@ -146,6 +146,17 @@ html{
     
     
 }
+@media (max-width: 600px){
+    .synthup{
+        width: 50px;
+    position: fixed;
+    right: 1px;
+    top: 700px;
+        
+        
+    }
+    
+}
 
 .homeimgs{
     float: left;
