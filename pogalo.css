@@ -80,6 +80,10 @@ html{
  
 } 
 
+.click{
+    width: 50px;
+}
+
 @media screen and (max-width: 600px) {
     .maintabs{
         flex-direction: column;
